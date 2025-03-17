@@ -5,12 +5,11 @@ public class SimpleCalc {
     public static void main(String[] args) {
         System.out.println("Enter two numbers");
         Scanner input1 = new Scanner(System.in);
-        Scanner input2 = new Scanner(System.in);
 
         Scanner input3 = new Scanner(System.in);
 
         double num1 = input1.nextDouble();
-        double num2 = input2.nextDouble();
+        double num2 = input1.nextDouble();
         System.out.println("Enter the operator");
         String operator = input3.nextLine();
         double result = 0;

@@ -7,11 +7,9 @@ public class SimpleInterest {
         Scanner input1 = new Scanner(System.in);
         double principle = input1.nextDouble();
         System.out.println("Please enter rate");
-        Scanner input2 = new Scanner(System.in);
-        double rate = input2.nextDouble();
+        double rate = input1.nextDouble();
         System.out.println("please enter time in year");
-        Scanner input3 = new Scanner(System.in);
-        double time = input3.nextDouble();
+        double time = input1.nextDouble();
 
         double si = (principle * rate * time) / 100;
 

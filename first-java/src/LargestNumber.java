@@ -5,10 +5,8 @@ public class LargestNumber {
     public static void main(String[] args) {
         System.out.println("Enter two numbers");
         Scanner in1 = new Scanner(System.in);
-        Scanner in2 = new Scanner(System.in);
-
         int num1 = in1.nextInt();
-        int num2 = in2.nextInt();
+        int num2 = in1.nextInt();
         if (num1 == num2) {
             System.out.println("Both are equal");
         } else if (num1 > num2) {
