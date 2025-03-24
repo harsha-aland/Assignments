@@ -1,10 +1,8 @@
-import java.util.Arrays;
 
 public class MissingNumber {
     public static void main(String[] args) {
         int[] nums = {3, 0, 1};
-        missingNumber(nums);
-        System.out.println(Arrays.toString(nums));
+        System.out.println(missingNumber(nums));
     }
 
     //https://leetcode.com/problems/missing-number/submissions/1584733903/
